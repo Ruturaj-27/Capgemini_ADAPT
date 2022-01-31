@@ -1,1 +1,51 @@
+DOCTOR SPECIALIST
 
+DESCRIPTION 
+
+Write code in given class Doctor which has private attributes:
+
+doctorld : int 
+doctorName : String 
+location : String 
+
+with the method getDetails() to display the attributes. 
+
+Write code in another given class SpecialistDoctor which should inherit Doctor class and have to override getDetails() with additional information specialist to be displayed. 
+
+specialist : String 
+
+Accept the input from the user to create Doctor or SpecialistDoctor object and display the details using getDetails method. 
+
+Other then "Doctor " or "SpecialistDoctor ", it must display "Invalid Input". 
+
+Example :
+
+Sample Input : 
+
+Doctor
+123
+Mohan
+Bangalore 
+
+Sample Output: 
+
+Doctor ID: 123
+Doctor Name: Mohan
+Location: Bangalore 
+
+---------------
+
+Sample Input: 
+
+Specialist
+111
+Ram
+Lucknow
+Neurologist 
+
+Sample Output:
+
+Doctor ID: 111
+Doctor Name : Ram
+Location: Lucknow
+Specialist: Neurologist
