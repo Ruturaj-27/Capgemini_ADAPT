@@ -1,0 +1,42 @@
+PatientBillingSystem
+
+DESCRIPTION
+
+Give the definition of two classes, Patient and Billing, whose objects are records for a clinic.
+
+Patient will be derived from the class Person.
+
+Doctor's information is derived from Doctor class.
+
+A Patient record has the patient's name (inherited from the class Person) and primary physician of type Doctor. A Billing object will contain a Patient object, a Doctor object, and an amount due of type double.
+
+Be sure your classes have a reasonable complement of constructors, accessor, and mutator methods, and suitably defined equals and toString methods. write a program to test all your methods, then write a test program that creates at least two patients. at least two doctors, and at least two Billing records, and then prints out the total income from the Billing records.
+
+Sample Input:
+
+Doctor doctor 1 = new Doctor ("Peter Mark", new Date(4, 30, 1995),75000, "General Physician", 85);
+Doctor doctor2 = new Doctor("Josh Samuel", new Date(2, 12, 1990). 88000, "Orthopedic Doctor", 190);
+
+Patient patient1 = new Patient("Sam Peter", doctor 1);
+Patient patient2 = new Patient("Rob Mehar", doctor 2);
+
+Billing billing 1 = new Billing(patient1, doctor 1, doctor1.getfees()); 
+Billing billing2 = new Billing(patient2, doctor 1, doctor1.getfees());
+
+System.out.println("Record 1:");
+System.out.println(billing 1);
+System.out.println("Record 2:");
+System.out.println(billing2);
+System.out.println("Total due amount: Rs" + (billing 1.getAmount() + billing.getAmount()));
+
+Sample Output:
+
+Record 1:
+
+Patient: Patient [physician-Doctor [name-Peter Mark, date-Sat Dec 16 00:00:00 IST 1911, salary-75000.0, specialist-General Physician, fees=85.0]], Doctor: General Physician, Fee: Rs85.0
+
+Record 2:
+
+Patient: Patient [physician-Doctor [name=Josh Samuel, date=Fri Jun 12 00:00:00 IST 1908, salary-88000.0, specialist Orthopedic Doctor, fees=190.0]], Doctor: Orthopedic Doctor, Fee: Rs190.0
+
+Total due amount: Rs275.0
