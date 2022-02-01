@@ -1,0 +1,58 @@
+MOTOR VEHICLE
+
+DESCRIPTION :
+
+
+The problem is related to identifying the correct driving for a particular vehicle i.e., if it is a two wheeler or four wheeler, vehicle should be driven accordingly. 
+
+Your task here is to implement a Java code based on the following specifications. Note that your code should match the specifications in a precise manner. Consider default visibility of classes, data fields and methods are public unless mentioned otherwise.
+
+Specification: 
+
+abstract class MotorVehicle {
+public String driveStatus; 
+public abstract String driveVehicle();
+getters/Setters... 
+} 
+
+class TwoWheeler extends MotorVehicle {
+@Override
+public String driveVehicle(){};
+}
+
+class FourWheeler extends MotorVehicle {
+@Override public String driveVehicle(){};
+}
+
+Task :
+
+class MotorVehicle:
+
+-driveStatus: This property should be set "Preparing for drive" when object is instantiated.
+
+class TwoWheeler:
+
+-String driveVehicle() : Returns "You are driving two wheeler".
+
+Sample Input:
+
+var twoWheeler = new TwoWheeler(); 
+System.out.println(twoWheeler.DriveStatus);
+var twoWheelerDrive = twoWheeler.DriveVehicle(); 
+System.out.println(twoWheelerDrive);
+ var fourWheeler = new FourWheeler(); 
+System.out.println(fourWheeler.DriveStatus); 
+var fourWheelerDrive = fourWheeler.DriveVehicle();
+ System.out.println(fourWheelerDrive); 
+
+Sample Output:
+
+Preparing for drive
+You are driving two wheeler 
+Preparing for drive 
+You are driving four wheeler
+ 
+Note: 
+-You can make suitable function calls and use the RUN 
+CODE button to check your main() method output. 
+
