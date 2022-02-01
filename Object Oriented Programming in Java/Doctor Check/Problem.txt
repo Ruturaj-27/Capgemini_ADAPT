@@ -1,0 +1,57 @@
+DOCTOR CHECK 
+
+DESCRIPTION :
+
+A Doctor record has the doctor’s specialty (such as "Pediatrician", "Obstetrician", "General Practitioner", and so forth; so use the type String) and office visit fee (use type double ). Be sure your class has a reasonable complement of constructors, accessor, and mutator methods, and suitably defined equals() and toString() methods. Write a program to test all your methods.
+
+
+DoctorSalary class defines Doctor's salary. Define the accessor and mutator to obtain the Doctor pay. Doctor inherits DoctorSalary.
+
+
+Note: The stub code is already present in the coding editor, the participant needs to
+
+implement the logic for equals() method and toString() to Check the Doctor's
+
+Object w.r.t to specialty and fees.
+
+Doctor doc1 = new Doctor("Obstetrician", 500, 2250.3);
+
+Sample Input : 
+
+Doctor doc2 = new Doctor();
+doc2.setFee(500);
+doc2.setSalary(2250.3);
+doc2.setSpecial("Obstetrician");
+
+Sample Output : 
+
+Doctor 1
+
+
+Doctor Specialty is: Obstetrician
+
+Pay of Doctor: 2250.3
+
+Visitor Fee: 500.0
+
+
+Doctor 2
+
+
+Doctor Specialty is: Obstetrician
+
+Pay of Doctor: 2250.3
+
+Visitor Fee: 500.0
+
+
+Doctor 1 Equals to Doctor 2 : true
+
+Sample Input : 
+
+new Doctor("Obstetrician", 500, 2250.3);
+new Doctor("Physician", 500, 2250.3);
+
+Sample Output : 
+
+Both are different Doctors!
