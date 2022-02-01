@@ -1,1 +1,67 @@
+SpecialAllowance 
 
+DESCRIPTION :
+
+In a company there are employees with two designations Manager and Trainee. Both employees share the same set of attributes and basic salary calculation logic is same but the basic salary of trainee and manager are different.
+
+The Manager has a travel allowance equal to 15% of the basic salary, whereas all the other employees the travel allowance is 10% of the basic salary. Write a program to maintain the entities using inheritance. 
+
+Problem Statement 1: A. Create a class Employee with the following instance variables. 
+Instance variables Data type 
+employeeld long 
+employee Name String 
+employee Address String 
+employee Phone Long
+basicSalary double 
+specialAllowance double default value - 250.80 
+Hra double default value - 1000.50
+
+B. Create an overloaded constructor in the employee class, which takes the below constructor parameters and initializes them to their respective instance variables. 
+
+Constructor parameter Instance Variable
+Id employeeld
+Name employeeName
+address employeeAddress
+phone employeePhone 
+
+C. Create a method calculateSalary in which the basic salary needs to be calculated as below. 
+salary = basicSalary + ( basicSalary * specialAllowance/100) + ( basicSalary * hra/100); 
+
+The calculated salary should be displayed in the console. 
+NOTE: salary is a local variable. 
+
+D. Create the sub classes Manager and Trainee with base class Employee. Create overloaded constructors which takes the below parameters and initializes them to their respective variables in the 
+
+Constructor parameter Instance Variable
+id employeeld 
+Name employeeName 
+address employeeAddress 
+phone employeePhone 
+salary basicSalary 
+
+E. Create a class "Source.java" with a main method. 
+
+
+Problem Statement 2 : 
+
+1. Add a method called calculateTransportAllowance in Employee class which should calculate the transport allowance by calculating 10% (default allowance) of the salary. Print the salary after calculating. 
+
+transportAllowance = 10/100*basicSalary. 
+
+2. For a manager, the transportation allowance is 15% of the basic salary. So override the calculateTransportAllowance method in Manager class which should calculate the transport allowance as 15% of the base salary. Print the salary after calculating. 
+
+transportAllowance = 15*basicSalary /100. 
+
+3. For a trainee, the transport allowance is same as the default allowance; the method calculateTransportAllowance in the base class can be used. 
+
+4. Invoke the calculateTransportAllowance for the manager and trainee class in the main method of Source.java. 
+
+
+Sample Input : 
+
+Manager m = new Manager(126534, "Peter", "Chennai India", 237844, 65000.0); 
+double salary = m.calculateSalary(); System.out.println("Manager's Salary : "+salary); transportAllowance = m.calculateTransportAllowance(m, 10); System.out.println("Manager's Transport Allowance (15%) : "+transportAllowance); 
+
+Sample Output : 
+
+Manager's Salary : 878345.0 
