@@ -1,0 +1,16 @@
+Product Supplier
+
+DESCRIPTION :
+
+Create a class named Product with the following private member variables.
+
+id of type Long
+product Name of type String
+supplier Name of type String
+
+Include getter setter method.
+Include a 3-argument constructor and a default constructor.
+
+Include a method named display. It does not accept any arguments and its return type is void. Display the details of the product in this method. The method prototype is void display();
+
+Create another class and write a main method to test the above class.
