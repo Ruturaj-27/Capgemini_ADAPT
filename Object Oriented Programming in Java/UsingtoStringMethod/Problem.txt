@@ -1,0 +1,32 @@
+UsingtoStringMethod
+
+DESCRIPTION :
+
+Test the toString Method is returning all the attribute Values set via get/set methods.
+
+Create a class "Employee" with the attributes mentioned below, add get/set methods and override the toString() method.
+
+Employee
+
+String firstname;
+String lastname;
+int phonenumber;
+
+Set the Values to the object using the set method of the class and print the Object
+
+Note: This Code does not require Scanner to be used.
+
+Sample Input:
+
+Employee emp-new Employee();
+emp.setFirstname("Jay");
+emp.setLastname("Kumar");
+emp.setPhonenumber(77777);
+
+Expected Output:
+
+Employee [firstname-Jay, lastname-Kumar, phonenumber-77777]
+
+EXECUTION TIME LIMIT
+
+50 seconds
