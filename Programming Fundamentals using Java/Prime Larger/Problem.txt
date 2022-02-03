@@ -1,0 +1,59 @@
+Prime Larger
+
+DESCRIPTION :
+
+Write a Java program that accepts two integer values from the user and
+
+1. prints the larger value if both the values are prime numbers. 
+2. otherwise it prints smaller value and
+3. it prints O if both the values are same.
+
+Example:
+
+Sample Input:
+
+5
+11
+
+Expected Output:
+
+11
+
+Sample Input:
+
+5
+16
+
+Expected output:
+
+5
+
+Sample Input:
+
+5
+5
+
+Expected output:
+
+0
+
+Instructions
+
+-Do not change the provided class/method names unless instructed
+-Ensure your code compiles without any errors/warning/deprecations
+-Follow best practices while coding
+-Avoid too many & unnecessary usage of white spaces (newline,spaces, tabs,...), except to make the code readable
+-Use appropriate comments at appropriate places in your exercise, to explain the logic, rational, solutions, so that evaluator can know them
+-Try to retain the original code given in the exercise, to avoid any issues in compiling & running your programs 
+-Always test the program thoroughly, before saving/submitting exercises/project
+
+
+Warnings
+
+-Take care of whitespace/trailing whitespace
+-Trim the output and avoid special characters
+-Avoid printing unnecessary values other than expected/asked output
+
+EXECUTION TIME LIMIT
+
+10 seconds
