@@ -40,33 +40,10 @@ Example:
 Sample Input:
 
 7000
-
 5
 
-4
-
-4
-
-4
-
-4
-
-4
-
-4
-
-45
-
-49
-
-56
-
-51
-
-52
-
 Sample Output:
- 4200
+4200
 
 Sample Input:
 
