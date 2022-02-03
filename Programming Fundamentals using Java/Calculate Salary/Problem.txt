@@ -1,0 +1,111 @@
+Calculate Salary
+
+DESCRIPTION :
+
+Read the question carefully and follow the input and output format.
+
+Ramya works for a reputed company. She spends her salary (daily allowance) as follows:
+
+-20% of her salary for food 
+-30% of her salary for travel.
+
+Rest goes into her savings.
+
+If she takes care of other shifts, she will get 2% of the salary per shift. Accept the following input from userHer salary that was credited today morning Number of shifts she is willing to take today
+
+Calculate how much she can save in her pocket at the end of day today after deducting her expenses.
+
+Requirement
+
+Write a program which accepts salary and no. of shifts.
+
+Read the inputs using Scanner required in the main() method of the program.
+
+Input and Output Format
+
+First line of input consists of an integer, salary.
+
+Second line of input consists of number of shifts.
+
+Output should be of an integer type, which is saving.
+
+1) Print "Salary too large" when salary is greater than 8000.
+
+2) Print "Shifts too small" when the shift is less than 0.
+
+3) Print "Salary too small" when the salary is less than 0.
+
+Example:
+
+Sample Input:
+
+7000
+
+5
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+45
+
+49
+
+56
+
+51
+
+52
+
+Sample Output:
+ 4200
+
+Sample Input:
+
+8001
+
+Sample Output:
+
+Salary too large
+
+Instructions :
+Do not change the provided class/method names unless
+
+instructed
+
+Ensure your code compiles without any
+
+errors/warning/deprecations
+
+-Follow best practices while coding
+
+Avoid too many & unnecessary usage of white spaces (newline, spaces, tabs.,...), except to make the code readable
+
+-Use appropriate comments at appropriate places in your exercise, to explain the logic, rational, solutions, so that evaluator can know them
+
+Try to retain the original code given in the exercise, to avoid any
+
+issues in compiling & running your programs
+
+- Always test the program thoroughly, before saving/submitting exercises/project
+
+
+Warnings
+
+-Take care of whitespace/trailing whitespace
+
+-Trim the output and avoid special characters
+
+-Avoid printing unnecessary values other than expected/asked output
+
+EXECUTION TIME LIMIT
+
+10 seconds
