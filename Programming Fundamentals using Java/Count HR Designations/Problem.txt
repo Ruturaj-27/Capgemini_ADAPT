@@ -1,0 +1,68 @@
+Count HR Designations
+
+DESCRIPTION :
+
+Write a program which accepts designations in an String array.
+
+Check the given array elements contain “HR” and
+
+display the total number of elements which contains “HR” and display the elements in upper case also.
+
+Display the message as given in Expected output.
+
+Example:
+
+Sample Input:
+
+4
+HRExecutive
+Accountant
+HRManager
+SalesMan
+
+Expected output:
+
+Total 2 designations in HR Department
+HREXECUTIVE
+HRMANAGER
+
+
+Sample Input:
+
+2
+Operator
+Programmer
+
+Expected output:
+
+No designation of HR department found in given data
+
+
+Sample Input:
+
+-2
+Operator
+Programmer
+
+Expected output:
+
+INVALID INPUT
+
+Instructions :
+-Do not change the provided class/method names unless instructed
+-Ensure your code compiles without any errors/warning/deprecations 
+-Follow best practices while coding
+-Avoid too many & unnecessary usage of white spaces (newline, spaces, tabs, ...), except to make the code readable
+-Use appropriate comments at appropriate places in your exercise, to explain the logic, rational, solutions, so that evaluator can know them
+-Try to retain the original code given in the exercise, to avoid any issues in compiling & running your programs
+-Always test the program thoroughly, before saving/submitting exercises/project
+-For any issues with your exercise, contact your coach
+
+Warnings
+
+-Take care of whitespace/trailing whitespace
+-Trim the output and avoid special characters
+-Avoid printing unnecessary values other than expected/asked output
+
+EXECUTION TIME LIMIT
+50 seconds
