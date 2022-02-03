@@ -1,0 +1,68 @@
+Exchange Greetings
+
+DESCRIPTION :
+
+There are n people in a room, where n is an integer greater than or equal to 1.
+
+Each person shakes hands once with every other person.
+
+What is the total number, h(n), of handshakes could take place in a room?
+
+To get you started, if there are only one or two people in the room, then
+
+Example: handshake(1) = 0
+
+handshake(2) = 1
+
+If a third person enters the room, he or she must shake hands with each of the two people already there. This is two handshakes in addition to the number of handshakes that would be made in a room of two people, or a total of three handshakes.
+
+If a fourth person enters the room, he or she must shake hands with each of the three people already present. This is three handshakes in addition to the number of handshakes that would be made in a room of three people, or six handshakes.
+
+If you can generalize this to n handshakes, then it should help us to find the handshakes based on the number of people in the room, by automating this application.
+
+Q. How to Solve Such Situation?
+
+Ans. You can write the recursive function/method for the solution.
+
+Steps:
+
+1. Create a method handshake(int numofpeople) in the class.
+
+2. Input for numofpeople should be taken using Scanner class. 3. Write the required logic within this method.
+
+Example:
+
+Sample Input:
+
+Sample Output:
+
+handshake (1)=0
+handshake (2)=1
+handshake (3)=3
+handshake (4)=6
+handshake (5)=10
+handshake (6)=15
+handshake (7)=21
+handshake (8)=28
+
+Instructions :
+
+-Do not change the provided class/method names unless instructed
+-Ensure your code compiles without any errors/warning/deprecations.
+
+Follow best practices while coding
+
+-Avoid too many & unnecessary usage of white spaces (newline, spaces, tabs, ...), except to make the code readable
+-Use appropriate comments at appropriate places in your exercise, to explain the logic, rational, solutions, so that evaluator can know them . Try to retain the original code given in the exercise, to avoid any issues in compiling & running your programs
+-Always test the program thoroughly, before saving/submitting exercises/project
+-For any issues with your exercise, contact your coach
+
+Warnings
+
+-Take care of whitespace/trailing whitespace
+-Trim the output and avoid special characters
+-Avoid printing unnecessary values other than expected/asked output
+
+EXECUTION TIME LIMIT
+10 seconds
+10 seconds
