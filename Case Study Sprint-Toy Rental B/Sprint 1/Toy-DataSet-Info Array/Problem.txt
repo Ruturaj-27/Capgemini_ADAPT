@@ -1,0 +1,71 @@
+JTRSB-S1-L1-3-Toy-DataSet-Info Array
+
+Coding	100 points
+
+DESCRIPTION
+
+Write a program to get the input as a String and store it in a two dimensional array as Toy details.
+Toy details array variable should have the Toy size of 5 and the attributes of 3.
+
+Example
+String toyArray=new String[5][3]
+
+Details of the toy are toyld, toyname and company.
+Example
+
+toy Details[0][0]="121":"
+toyDetails[0][1]="Stack a Ring";
+toyDetails[0][2]="Funskool";
+
+toy Details[1][0]="131";
+toy Details[1][1]="Speeding Bike";
+toy Details [1][0]="Hot Wheels";
+
+Sort the toy details based on the toyld;
+
+Sample Input :
+221
+UltimateGarage
+Matel
+
+321
+TrackSet
+Hot Wheels
+
+17
+Monster Trucks
+Funskool
+
+91
+Super-6-lane
+HotWheels
+
+10
+MarioKart
+Hot Wheels
+
+Sample Output :
+
+10
+MarioKart
+HotWheels
+
+17
+Monster Trucks
+Funskool
+
+91
+Super-6-lane
+HotWheels
+
+221
+UltimateGarage
+Matel
+
+321
+TrackSet
+HotWheels
+
+EXECUTION TIME LIMIT
+
+50 seconds

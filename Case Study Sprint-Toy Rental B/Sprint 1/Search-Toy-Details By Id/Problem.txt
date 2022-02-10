@@ -1,0 +1,26 @@
+JTRSB-S1-L1-4-Search-Toy-Details By Toy Id
+
+Coding	100 points
+
+DESCRIPTION
+
+Write a program to get the input as toy id and search the toy in a give array. this program should print "No Record Found" if the toy with such id is not available in the given array.
+
+note:use linear search algorithm
+
+Sample Input :
+11
+
+Sample Output :
+11
+Speeding Cars
+350
+
+Sample Input :
+23
+
+Sample Output :
+No Record Found
+
+EXECUTION TIME LIMIT
+50 seconds
