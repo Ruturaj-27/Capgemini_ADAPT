@@ -1,0 +1,6 @@
+In 2009, Mr. Harry Peter, founded a Baby Toy Company LLP, in United States, its headquarters in Los Angeles, CA. The company was selling premium toys, but the business had been stagnant over the years. Harry Peter was looking at bringing in new offerings to increase revenue. A survey was conducted on kids and their preference for toys and it was found that attention span/engagement with a new toy lasts only few days for kids and they start demanding a new one within a week. However, the survey also brought out that parents found affording premium toys difficult. Like any businessman, Harry Peter saw an opportunity here and decided to launch a new offering of premium toys being available on rent. He directed his IT team to make rental option for customers available on their online portal http://baby-toy-company.xyz
+
+Your company Capgemini, India has this project and you are chosen as one of the developers, to provide solution for the Baby Toy Company LLP.
+
+You are expected to deliver the application in phases getting regular feedback from all stakeholders. The application development must be done in sprints and should follow Agile methodology. Capgemini understands that you have graduated recently from college. In order to help you get skilled on the technologies needed, you have been provided with a learning platform called ADAPT
+
