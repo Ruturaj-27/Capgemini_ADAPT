@@ -1,0 +1,38 @@
+JTRSB-S2-L2-2-Toy-Customer-Address HAS-A
+
+Coding	100 points
+
+DESCRIPTION : 
+
+Create Customer and Address class as per the given structure with setter and getter methods. Customer and Address classes are related with Has-a relationship.
+create a constructor for the Customer and Address with all the fields of the class.
+Override toString method to return all the fields using String concatenation.
+Member Variables for Customer & Address class
+
+class Customer {
+
+private int customerld;
+private String customerName;
+private String password;
+private Address address;
+private String email;
+
+}
+
+class Address {
+
+private String city;
+private String state;
+
+class Address { 
+
+private String city; 
+private String state;
+private int zip;
+private String country;
+
+}
+
+Example : toString Method of customer
+
+Customer [customerld-101, email=raj@gmail.com, password=xxxxxx, customer Name=Raj Kumar,address Address [city=Chennai, state=TamilNadu, zip=600075, country=India]]

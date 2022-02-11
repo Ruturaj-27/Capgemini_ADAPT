@@ -1,0 +1,16 @@
+JTRSB-S2-L2-1-Toy-Customer-ToyRental HAS-A
+
+Coding	100 points
+
+DESCRIPTION :
+
+Create Customer and Toy Rental class as per the given structure with setter and getter methods. Customer and ToyRental classes are related with Has-a relationship.
+create a constructor for the Customer and Toy Rental with all the fields of the class.
+Override toString method to return all the fields using String concatenation.
+
+Example : toString Method of ToyRental
+
+ToyRental [rentalld=701, toyid=333, rentalDate-June-6-2019, rentalReturnDate-July-06-2019, totalAmount-750.0, fine=100, status Recieved, customer Id=Customer [customerld=101, email=raj@gmail.com, password=xxXXXXX, customerNameName=Raj Kumar]]
+
+EXECUTION TIME LIMIT
+50 seconds
